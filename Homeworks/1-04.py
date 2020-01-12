@@ -16,7 +16,7 @@ def my_decode(ls):
         result.append(el.decode('utf-8'))
     return result
 
-LS = ['разработка', 'администрирование', 'protocol', 'standard']
+LS = ['paзpaбoткa', 'aдминиcтpиpoвaниe', 'protocol', 'standard']
 
 LS_B = my_encode(LS)
 print(LS_B)
